@@ -167,7 +167,7 @@ runs:
         SCENARIO: ${{ inputs.scenario }}
         VERBOSE: ${{ inputs.verbose }}
       run: |
-        set -o pipefail
+        set -euo pipefail
         echo "::group::molecule test -s $SCENARIO (distro=$DISTRO)"
         export MOLECULE_DISTRO="$DISTRO"
         export PY_COLORS=1
