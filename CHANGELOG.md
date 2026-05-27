@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.3](https://github.com/somaz94/ansible-molecule-test-action/compare/v1.0.2...v1.0.3) (2026-05-27)
+
+### Code Refactoring
+
+- align Run Molecule test step with set -euo pipefail ([2806b77](https://github.com/somaz94/ansible-molecule-test-action/commit/2806b77243df5ab386a4368a110de3de50c469f5))
+
+### Continuous Integration
+
+- add concurrency guards to recurring workflows ([f32b33b](https://github.com/somaz94/ansible-molecule-test-action/commit/f32b33bdf9e2289d07e04a3ce147210b3732732e))
+
+### Chores
+
+- drop unused docker dependabot ecosystem (composite action, no Dockerfile) ([90af70c](https://github.com/somaz94/ansible-molecule-test-action/commit/90af70ca1d5f9edfb5a1f69663ec22f5e86e959a))
+- set CODEOWNERS to @somaz94 ([fd82c50](https://github.com/somaz94/ansible-molecule-test-action/commit/fd82c502e5f71ba2fc1d29493b61c5fe2a6942cc))
+
+### Contributors
+
+- somaz
+
+<br/>
+
 ## [v1.0.2](https://github.com/somaz94/ansible-molecule-test-action/compare/v1.0.1...v1.0.2) (2026-04-21)
 
 ### Documentation
