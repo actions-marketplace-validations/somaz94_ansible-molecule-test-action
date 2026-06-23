@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## Unreleased (2026-06-23)
+
+### Continuous Integration
+
+- add DCO check via shared reusable workflow ([68d154a](https://github.com/somaz94/ansible-molecule-test-action/commit/68d154a26ae1e577e540f3811c70042d422103ab))
+
+### Chores
+
+- **deps:** bump actions/checkout from 6 to 7 (#2) ([#2](https://github.com/somaz94/ansible-molecule-test-action/pull/2)) ([bdb150e](https://github.com/somaz94/ansible-molecule-test-action/commit/bdb150e9967f35fe4f0fb983cacb942f66182225))
+
+### Contributors
+
+- somaz
+
+<br/>
+
 ## [v1.0.3](https://github.com/somaz94/ansible-molecule-test-action/compare/v1.0.2...v1.0.3) (2026-05-27)
 
 ### Code Refactoring
