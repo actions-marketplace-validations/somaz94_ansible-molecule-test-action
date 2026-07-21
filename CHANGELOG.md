@@ -2,14 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
-## Unreleased (2026-06-23)
+## Unreleased (2026-07-21)
 
 ### Continuous Integration
 
+- remove DCO workflow ([259d4ba](https://github.com/somaz94/ansible-molecule-test-action/commit/259d4bac7479a4e1447630ece6dbc2c55b1d1a52))
+- adopt semantic-pr, labels, lock-threads, PR size, and auto-assign reusables ([ff8832b](https://github.com/somaz94/ansible-molecule-test-action/commit/ff8832b958f0b3dd2fa2969a81c40891961efd98))
+- use reusable stale-issues workflow ([18dbe53](https://github.com/somaz94/ansible-molecule-test-action/commit/18dbe535404df5f7943cde1a30c605a384db20f3))
+- use reusable issue-greeting workflow ([9373508](https://github.com/somaz94/ansible-molecule-test-action/commit/9373508674d02210c855b185a9d7740e55d00ef7))
+- use reusable dependabot-auto-merge workflow ([7b424d0](https://github.com/somaz94/ansible-molecule-test-action/commit/7b424d04c45d44b8746b6a58e86ebd30bce11f74))
+- use reusable contributors workflow ([90bc204](https://github.com/somaz94/ansible-molecule-test-action/commit/90bc2040915ae2749de16ad35759e88aa2c30b28))
+- add ok-to-test workflow stub ([b7e340f](https://github.com/somaz94/ansible-molecule-test-action/commit/b7e340ffc26bbba55fb916d15c4b195ce559de38))
+- add PR welcome workflow stub ([4fb1ee2](https://github.com/somaz94/ansible-molecule-test-action/commit/4fb1ee2e39df64b7127d82b9e9750260338ade25))
 - add DCO check via shared reusable workflow ([68d154a](https://github.com/somaz94/ansible-molecule-test-action/commit/68d154a26ae1e577e540f3811c70042d422103ab))
 
 ### Chores
 
+- **deps:** bump actions/setup-python from 6 to 7 (#3) ([#3](https://github.com/somaz94/ansible-molecule-test-action/pull/3)) ([e5955e8](https://github.com/somaz94/ansible-molecule-test-action/commit/e5955e8fb5127d7b1ae0930e054099be97df2357))
 - **deps:** bump actions/checkout from 6 to 7 (#2) ([#2](https://github.com/somaz94/ansible-molecule-test-action/pull/2)) ([bdb150e](https://github.com/somaz94/ansible-molecule-test-action/commit/bdb150e9967f35fe4f0fb983cacb942f66182225))
 
 ### Contributors
