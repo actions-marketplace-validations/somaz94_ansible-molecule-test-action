@@ -3,8 +3,6 @@ name: Generate changelog
 on:
   pull_request:
     types: [closed]
-  issues:
-    types: [closed]
   workflow_run:
     workflows: ["Create release"]
     types:
@@ -23,7 +21,7 @@ jobs:
       (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') ||
       (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
